@@ -20,4 +20,9 @@ I want you to think about executing this with the least market impact possible w
 
 ---
 Helper:
-Pairing up 4 orderbooks into 2 synthetic orderbooks may help.
+Pairing up 4 orderbooks into 2 synthetic orderbooks (where bids comprise of buying 1 thing / selling the other and asks vice versa) may be useful. 
+
+### Setup
+> 1) Download docker desktop if you have not already.
+> 2) In the terminal run "docker run -d --name redis-test -p 6379:6379 redis"
+> 3) Run 'npm run dev' and the orderbook data will start being sent to your local redis container
