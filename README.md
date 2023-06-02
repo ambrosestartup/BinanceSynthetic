@@ -16,7 +16,7 @@ I want you to think about executing this with the least market impact possible w
 > 3) Using the four orderbooks, come up with a real-time methodology for our algorithmic decision making of which orderbooks to enter bids and offers in, and following actions once each clip is dealt.
 > 4) The goal is to MINIMISE market impact (remember all the derivatives are correlated and so we do not want to be caught too net long / short in $ terms) and MINIMISE execution costs (rather than aggressing the market, we prefer to place limit orders into the orderbook, which is cheaper)
 > 5) Try your best to demonstrate this in code and a summary of the methodology you implemented.
-> 6) Do not worry about exeucting real trades, but you can setup a simulation if you want.
+> 6) Do not worry about exeucting real trades, but you can setup a simulation for testing.
 
 ---
 Helper:
